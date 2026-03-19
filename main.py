@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 1. إعداد المفتاح
-API_KEY = "AIzaSyDslEEucPc1Jj5e0lCMObTOT7cgOBVubyc"
+API_KEY = "AIzaSyDDCXcjzwHjOqDeSbBolVlVw9A3z1Aa6Xk"
 genai.configure(api_key=API_KEY)
 
 st.title("🚀 فحص الاتصال بالذكاء الاصطناعي")
