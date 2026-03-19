@@ -4,8 +4,7 @@ import google.generativeai as genai
 # --- 1. الإعدادات ومفتاح الـ API ---
 API_KEY = "AIzaSyB1mhwJoxgXjxTuRZsveaPCEGr9fCeg7Fk" # مفتاحك الذي أرسلته
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
-
+model = genai.GenerativeModel('gemini-1.5-pro')
 # --- 2. واجهة المستخدم بتصميم أنيق ---
 st.set_page_config(page_title="محرر الأخبار الذكي", layout="wide")
 
